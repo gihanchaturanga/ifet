@@ -1,0 +1,53 @@
+.section {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("https://www.njacac.org/wp-content/uploads/NJACAC-Blog-Post-Images-College-Key-NFP.jpg");
+    overflow: hidden;
+    background: #C04848;
+    /* fallback for old browsers */
+    background: linear-gradient(rgb(72, 0, 72, 0.6), rgb(192, 72, 72, 0.6)), url("https://ik.imagekit.io/ikmedia/blog/hero-image.jpeg");
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(72, 0, 72, 0.6), rgb(192, 72, 72, 0.6)), url("https://ik.imagekit.io/ikmedia/blog/hero-image.jpeg");
+}
+
+.header {
+    background: transparent;
+}
+
+.login {
+    margin-right: 10px;
+}
+
+.sign-up {
+    margin-right: 20px;
+}
+
+.navbar-brand {
+    margin-left: 3%;
+    height: 100px;
+    /* border: 1px solid blue; */
+}
+
+.logo-img {
+    /* border: 1px solid black; */
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.main {
+    margin-top: 100px;
+    margin-bottom: 200px;
+    height: 800px;
+    border: 1px solid purple;
+}
