@@ -1,17 +1,19 @@
 #section {
     margin: 0px;
     padding: 0px;
-    height: 100%;
+    height: 70%;
     width: 100%;
-    background-image: url("https://www.njacac.org/wp-content/uploads/NJACAC-Blog-Post-Images-College-Key-NFP.jpg");
+    background-image: url("../../assets/backgrounds/a.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
-.overlay{
+
+.overlay {
     margin: 0%;
-    padding: 0%;
+    padding-left: 4%;
+    padding-right: 2%;
     height: 100%;
-    background: linear-gradient(to bottom left, rgb(117, 19, 93, 0.73), rgb(245, 246, 252, 0.52));
+    background: linear-gradient(to bottom left, rgb(117, 19, 93, 0.73), rgba(187, 195, 236, 0.52));
 }
 
 .login {
@@ -22,20 +24,15 @@
     margin-right: 10px;
 }
 
-.navbar-brand {
-    margin-left: 3%;
-    height: 100px;
-    /* border: 1px solid blue; */
-}
-
 .logo-img {
-    /* border: 1px solid black; */
     height: 100px;
     background-size: cover;
     background-repeat: no-repeat;
     font-size: 60px;
     font-weight: 600;
     letter-spacing: 5px;
+    margin-bottom: 20px;
+    margin-top: 3%;
 }
 
 .nav-item {
@@ -49,9 +46,61 @@
     color: yellow;
 }
 
+.topic {
+    margin-top: -15%;
+    margin-left: 5%;
+    padding-right: 8%;
+    font-size: 5vw;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: white;
+    position: fixed;
+}
+
 .main {
-    margin-top: 100px;
-    margin-bottom: 200px;
-    height: 800px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    height: 2000px;
     border: 1px solid purple;
+}
+
+.introduction {
+    width: 100%;
+    height: 800px;
+    margin-bottom: 10%;
+    border: 1px solid black;
+}
+
+.courses-list {
+    padding-top: 2%;
+    width: 100%;
+    height: 800px;
+    border: 1px solid greenyellow;
+}
+
+.small-box {
+    height: 30px;
+    width: 30px;
+    background-color: chartreuse;
+    margin-right: 1%;
+}
+
+.programs {
+    font-size: 18px;
+    height: 30px;
+    letter-spacing: 1px;
+    /* display: inline-flex; */
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .topic {
+        font-size: 30px;
+    }
+
+    .logo-img {
+        height: 60px;
+    }
 }
